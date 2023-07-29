@@ -6,8 +6,8 @@ import java.math.BigInteger;
 public class menu {
     public static void main(String[] args){
         /* The base info */
-        String name = "ABDULRUHMAN ALSATI";
-        BigInteger nationalNumber = new BigInteger("30576000564");
+        String name = "Omar";
+        BigInteger nationalNumber = new BigInteger("30236099654");
 
         /* collecting name */
         Scanner userName = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class menu {
         /* Asking */
 
         Scanner theCand = new Scanner(System.in);
-        System.out.println("Select the candidate number you wish to select");
+        System.out.println("Select the candidate number you wish to select: ");
         int theWC = theCand.nextInt();
 
 
@@ -39,7 +39,7 @@ public class menu {
             case 1 -> "You support Bashar al-Assad";
             case 2 -> "You support Yaman al-Najjar";
             case 3 -> "You support Hassan Gemayel";
-            default -> "please make sure you have selected";
+            default -> "please make sure you have selected one person";
         };
 
         /* Sending the message */
