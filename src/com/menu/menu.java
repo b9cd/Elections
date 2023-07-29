@@ -5,9 +5,10 @@ import java.math.BigInteger;
 
 public class menu {
     public static void main(String[] args){
-        /* The base info */
+        /* no needed
         String name = "Omar";
         BigInteger nationalNumber = new BigInteger("30236099654");
+                                                 */
 
         /* collecting name */
         Scanner userName = new Scanner(System.in);
@@ -45,7 +46,7 @@ public class menu {
         /* Sending the message */
 
 
-        System.out.println("Your national number is " + usernum + " and " + theMessage);
+        System.out.println("Hello " + username + ", Your national number is " + usernum + " and " + theMessage);
 
 
     }
